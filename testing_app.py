@@ -1,12 +1,12 @@
 import streamlit as st
 
-st.title("Registration Page", key="title")
+st.title("Registration Page")
 
 if 'registered' not in st.session_state:
     st.session_state['registered'] = False
 
 if not st.session_state['registered']:
-    st.subheader("Create an account", key="subheader")
+    st.subheader("Create an account")
 
     username = st.text_input("Username", key="username_input")
     password = st.text_input("Password", type="password", key="password_input")
