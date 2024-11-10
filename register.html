@@ -74,25 +74,25 @@
 <body>
     <div class="container">
         <h2>Register</h2>
-        <div class="success-message" id="successMessage" data-test-id="successMessage">
+        <div class="success-message" id="successMessage" data-testid="successMessage">
             Registration successful!
         </div>
         <form id="registrationForm">
             <div class="form-group">
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required data-test-id="usernameInput">
+                <input type="text" id="username" name="username" required data-testid="usernameInput">
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required data-test-id="passwordInput">
+                <input type="password" id="password" name="password" required data-testid="passwordInput">
                 <div class="error-message" id="passwordError">Password must be at least 6 characters long.</div>
             </div>
             <div class="form-group">
                 <label for="confirmPassword">Confirm Password:</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" required data-test-id="confirmPasswordInput">
+                <input type="password" id="confirmPassword" name="confirmPassword" required data-testid="confirmPasswordInput">
                 <div class="error-message" id="confirmError">Passwords do not match.</div>
             </div>
-            <button type="button" class="btn" onclick="register()" data-test-id="registerButton">Register</button>
+            <button type="button" class="btn" onclick="register()" data-testid="registerButton">Register</button>
         </form>
     </div>
 
