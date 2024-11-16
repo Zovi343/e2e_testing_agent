@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    with open("./data/e2e_testing_agent_register.html", "r") as html_file:
+    with open("../data/e2e_testing_agent_register.html", "r") as html_file:
         content = html_file.read()
     return Response(content, mimetype="text/html")
 
