@@ -4,7 +4,7 @@ An intelligent agent designed to control a headless browser and perform end-to-e
 **Tech Stack**
 - [LangGraph](https://langchain-ai.github.io/langgraph/) - agent implementation
 - [Playwright](https://github.com/microsoft/playwright-python) - a Python Playwright version that we can use to generate a script that can execute the test
-- [Taipy](https://taipy.io/) - A library that we will use to spin up a simple website where we can demonstrate the capability of our agent
+- [Flask](https://flask.palletsprojects.com/en/stable/) - A web framework that servers static HTML web page with a registration form
 - [langchain_community.agent_toolkits.PlayWrightBrowserToolkit](https://python.langchain.com/v0.1/docs/integrations/toolkits/playwright/)
 
 **Use Case**
